@@ -84,14 +84,12 @@
 		524526B129F7151D005A72C2 /* RickAndMortyAPI */ = {
 			isa = PBXGroup;
 			children = (
+				52E5A71F29F71E86005BF1CA /* Assets */,
+				52E5A71E29F71E79005BF1CA /* App */,
 				52F056B429F7192300562252 /* Views */,
 				52F056A029F717D000562252 /* Network */,
 				52F0569B29F7171300562252 /* Utils */,
-				524526C429F7160E005A72C2 /* Font */,
 				524526C029F71550005A72C2 /* Info.plist */,
-				524526B229F7151D005A72C2 /* RickAndMortyAPIApp.swift */,
-				524526B429F7151D005A72C2 /* ContentView.swift */,
-				524526B629F7151E005A72C2 /* Assets.xcassets */,
 				524526B829F7151E005A72C2 /* Preview Content */,
 			);
 			path = RickAndMortyAPI;
@@ -111,6 +109,24 @@
 				524526C229F7160B005A72C2 /* get_schwifty.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		52E5A71E29F71E79005BF1CA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				524526B229F7151D005A72C2 /* RickAndMortyAPIApp.swift */,
+				524526B429F7151D005A72C2 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52E5A71F29F71E86005BF1CA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				524526B629F7151E005A72C2 /* Assets.xcassets */,
+				524526C429F7160E005A72C2 /* Font */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		52F0569B29F7171300562252 /* Utils */ = {
